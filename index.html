@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/2b97befbf4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Paris</title>
+  </head>
+  <body>
+    <header class="container-fluid">
+      <svg
+        class="main_svg svg_paris"
+        viewBox="0 0 167 45"
+        role="img"
+        focusable="false"
+      >
+        <path
+          d="M71.11 18.01c0-1.978-1.397-3.491-3.298-3.491h-4.074v6.984h4.074c1.9 0 3.298-1.514 3.298-3.492zm6.208 0c0 5.161-4.152 9.313-9.506 9.313h-4.074v8.536H57.53V8.699h10.282c5.354 0 9.506 4.151 9.506 9.312zm56.867 17.849V8.699h6.209v27.16h-6.209zM113.65 21.902h4.656c1.708 0 3.104-1.6 3.104-3.692s-1.396-3.691-3.104-3.691h-4.656v7.383zm0 5.433v8.524h-6.208V8.699h10.864a9.29 9.29 0 0 1 9.312 9.312c0 3.336-1.929 6.6-4.927 8.01l5.703 9.838h-6.673l-4.892-8.524h-3.179zm-26.463-1.474c1.026.263 2.102.402 3.21.402 1.11 0 2.186-.139 3.212-.402L90.398 15.8l-3.211 10.06zm-1.668 5.224l-1.525 4.774h-6.79l9.236-27.16h7.916l9.232 27.16h-6.79l-1.521-4.774c-1.56.4-3.195.611-4.88.611-1.684 0-3.319-.211-4.878-.611zm70.638-16.877c-1.67 0-2.91.769-2.91 2.057 0 1.728 1.689 2.448 5.91 3.697 5.428 1.606 7.708 3.915 7.708 8.098 0 5.29-4.283 8.342-10.087 8.342-7.392 0-10.46-5.583-10.865-6.713l5.283-2.769c1.179 2.093 3.133 3.434 5.582 3.434 2.193 0 3.88-.608 3.88-2.216 0-2.31-3.732-2.78-5.626-3.454-1.895-.673-7.993-1.85-7.993-8.264 0-5.343 4.524-8.265 9.118-8.265 6.536 0 9.074 4.429 9.932 6.13l-5.18 2.728c-.937-1.352-2.046-2.805-4.752-2.805zM47.75 26.281c.243.003.276.744-.487 2.796-3.315 8.906-11.097 15.208-22.558 15.208-13.814 0-23.347-9.76-24.704-21.668a.37.37 0 0 1 .46-.396l15.607 3.403c.04.104 2.588 7.577 9.904 7.577 7.367 0 12.15-7.526 12.15-15.81 0-8.278-5.164-11.76-6.741-12.981a31815.5 31815.5 0 0 0-13.127 6.565c7.091 4.342 8.372 12.053 6.59 17.35-.502 1.494-1.025 1.627-.932.83.618-5.33-1.6-14.729-14.683-17.758a.248.248 0 0 1-.049-.466L32.797 0c5.27 3.863 8.9 8.787 8.9 17.392 0 9.563-6.453 18.811-15.724 18.811-8.764 0-12.084-7.631-12.128-7.725L5.17 26.856c.106.38 4.112 14.366 21.11 14.24 8.539-.063 16.598-4.65 20.97-14.227.196-.428.334-.59.502-.588z"
+        ></path>
+      </svg>
+      <nav>
+        <ul class="header_sr">
+          <li>
+            <svg
+              class="main_svg_sr svg_paris"
+              viewBox="0 0 167 45"
+              role="img"
+              focusable="false"
+            >
+              <path
+                d="M71.11 18.01c0-1.978-1.397-3.491-3.298-3.491h-4.074v6.984h4.074c1.9 0 3.298-1.514 3.298-3.492zm6.208 0c0 5.161-4.152 9.313-9.506 9.313h-4.074v8.536H57.53V8.699h10.282c5.354 0 9.506 4.151 9.506 9.312zm56.867 17.849V8.699h6.209v27.16h-6.209zM113.65 21.902h4.656c1.708 0 3.104-1.6 3.104-3.692s-1.396-3.691-3.104-3.691h-4.656v7.383zm0 5.433v8.524h-6.208V8.699h10.864a9.29 9.29 0 0 1 9.312 9.312c0 3.336-1.929 6.6-4.927 8.01l5.703 9.838h-6.673l-4.892-8.524h-3.179zm-26.463-1.474c1.026.263 2.102.402 3.21.402 1.11 0 2.186-.139 3.212-.402L90.398 15.8l-3.211 10.06zm-1.668 5.224l-1.525 4.774h-6.79l9.236-27.16h7.916l9.232 27.16h-6.79l-1.521-4.774c-1.56.4-3.195.611-4.88.611-1.684 0-3.319-.211-4.878-.611zm70.638-16.877c-1.67 0-2.91.769-2.91 2.057 0 1.728 1.689 2.448 5.91 3.697 5.428 1.606 7.708 3.915 7.708 8.098 0 5.29-4.283 8.342-10.087 8.342-7.392 0-10.46-5.583-10.865-6.713l5.283-2.769c1.179 2.093 3.133 3.434 5.582 3.434 2.193 0 3.88-.608 3.88-2.216 0-2.31-3.732-2.78-5.626-3.454-1.895-.673-7.993-1.85-7.993-8.264 0-5.343 4.524-8.265 9.118-8.265 6.536 0 9.074 4.429 9.932 6.13l-5.18 2.728c-.937-1.352-2.046-2.805-4.752-2.805zM47.75 26.281c.243.003.276.744-.487 2.796-3.315 8.906-11.097 15.208-22.558 15.208-13.814 0-23.347-9.76-24.704-21.668a.37.37 0 0 1 .46-.396l15.607 3.403c.04.104 2.588 7.577 9.904 7.577 7.367 0 12.15-7.526 12.15-15.81 0-8.278-5.164-11.76-6.741-12.981a31815.5 31815.5 0 0 0-13.127 6.565c7.091 4.342 8.372 12.053 6.59 17.35-.502 1.494-1.025 1.627-.932.83.618-5.33-1.6-14.729-14.683-17.758a.248.248 0 0 1-.049-.466L32.797 0c5.27 3.863 8.9 8.787 8.9 17.392 0 9.563-6.453 18.811-15.724 18.811-8.764 0-12.084-7.631-12.128-7.725L5.17 26.856c.106.38 4.112 14.366 21.11 14.24 8.539-.063 16.598-4.65 20.97-14.227.196-.428.334-.59.502-.588z"
+              ></path>
+            </svg>
+          </li>
+          <li>
+            <a class="text-decoration-none text-black" href="">Services</a>
+          </li>
+          <li>
+            <a class="text-decoration-none text-black" href="">Municipalité</a>
+          </li>
+          <li>
+            <a class="text-decoration-none text-black" href="">Participez !</a>
+          </li>
+          <li>
+            <a class="text-decoration-none text-black" href=""
+              >Que faire à Paris ?</a
+            >
+          </li>
+          <li>
+            <a class="text-decoration-none text-black" href="">Jeux 2024</a>
+          </li>
+          <li>
+            <input
+              placeholder="Recherche"
+              id="footeremail"
+              autocomplete="off"
+              data-target="newsletter.emailInput"
+              type="email"
+              name="email"
+            />
+          </li>
+          <li class="d-flex text-info">
+            Mon Paris
+            <svg class="svg_nav">
+              <path
+                d="M18.875 12.066a6.613 6.613 0 0 1 3.326 5.727v7.02c0 .287-.114.563-.318.767-3.354 3.354-9.303 3.263-12.565 0A1.086 1.086 0 0 1 9 24.812v-7.02a6.61 6.61 0 0 1 3.14-5.615 5.183 5.183 0 1 1 6.735-.11zm-3.264 1.297l-.165.003c-2.363.082-4.275 2.045-4.275 4.427v6.546c2.382 2.04 6.421 2.095 8.86 0v-6.546c0-2.43-1.99-4.424-4.42-4.43zm-.041-2.171a3.012 3.012 0 1 0-.254-6.019 3.012 3.012 0 0 0 .254 6.019z"
+              />
+            </svg>
+          </li>
+        </ul>
+      </nav>
+      <nav class="icon_header">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-bars"></i>
+      </nav>
+    </header>
+
+    <main class="row">
+      <section class="col left">
+        <ul class="acces_rapide">
+          <li><h3>Accès rapides</h3></li>
+          <li>
+            <a class="btn btn-success" href=""
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="9"
+                height="14.19"
+                viewBox="0 0 9.35 14.19"
+              >
+                <g
+                  id="noun_Maps_point_1903779"
+                  data-name="noun_Maps point_1903779"
+                  transform="translate(79.897 -117.7)"
+                >
+                  <g
+                    id="Groupe_8215"
+                    data-name="Groupe 8215"
+                    transform="translate(-79.897 117.7)"
+                  >
+                    <path
+                      id="Tracé_56944"
+                      data-name="Tracé 56944"
+                      d="M33.054,21.89H33.1a.888.888,0,0,0,.724-.414c.889-1.551,3.93-7.012,3.93-9.267A4.4,4.4,0,0,0,33.24,7.7H32.91a4.4,4.4,0,0,0-4.51,4.51c0,2.255,3.041,7.716,3.93,9.267A.834.834,0,0,0,33.054,21.89Zm-2.151-9.6a2.172,2.172,0,1,1,2.172,2.172A2.172,2.172,0,0,1,30.9,12.292Z"
+                      transform="translate(-28.4 -7.7)"
+                      fill="#354bcf"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+              PISCINES</a
+            >
+          </li>
+          <li>
+            <a class="btn btn-success" href=""
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="9"
+                height="14.19"
+                viewBox="0 0 9.35 14.19"
+              >
+                <g
+                  id="noun_Maps_point_1903779"
+                  data-name="noun_Maps point_1903779"
+                  transform="translate(79.897 -117.7)"
+                >
+                  <g
+                    id="Groupe_8215"
+                    data-name="Groupe 8215"
+                    transform="translate(-79.897 117.7)"
+                  >
+                    <path
+                      id="Tracé_56944"
+                      data-name="Tracé 56944"
+                      d="M33.054,21.89H33.1a.888.888,0,0,0,.724-.414c.889-1.551,3.93-7.012,3.93-9.267A4.4,4.4,0,0,0,33.24,7.7H32.91a4.4,4.4,0,0,0-4.51,4.51c0,2.255,3.041,7.716,3.93,9.267A.834.834,0,0,0,33.054,21.89Zm-2.151-9.6a2.172,2.172,0,1,1,2.172,2.172A2.172,2.172,0,0,1,30.9,12.292Z"
+                      transform="translate(-28.4 -7.7)"
+                      fill="#354bcf"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+              PARCS, JARDINS ET BOIS</a
+            >
+          </li>
+          <li>
+            <a class="btn btn-success" href=""
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="9"
+                height="14.19"
+                viewBox="0 0 9.35 14.19"
+              >
+                <g
+                  id="noun_Maps_point_1903779"
+                  data-name="noun_Maps point_1903779"
+                  transform="translate(79.897 -117.7)"
+                >
+                  <g
+                    id="Groupe_8215"
+                    data-name="Groupe 8215"
+                    transform="translate(-79.897 117.7)"
+                  >
+                    <path
+                      id="Tracé_56944"
+                      data-name="Tracé 56944"
+                      d="M33.054,21.89H33.1a.888.888,0,0,0,.724-.414c.889-1.551,3.93-7.012,3.93-9.267A4.4,4.4,0,0,0,33.24,7.7H32.91a4.4,4.4,0,0,0-4.51,4.51c0,2.255,3.041,7.716,3.93,9.267A.834.834,0,0,0,33.054,21.89Zm-2.151-9.6a2.172,2.172,0,1,1,2.172,2.172A2.172,2.172,0,0,1,30.9,12.292Z"
+                      transform="translate(-28.4 -7.7)"
+                      fill="#354bcf"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+              MAIRIES D'ARRONDISSEMENT</a
+            >
+          </li>
+          <li>
+            <a class="btn btn-success" href=""
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="9"
+                height="14.19"
+                viewBox="0 0 9.35 14.19"
+              >
+                <g
+                  id="noun_Maps_point_1903779"
+                  data-name="noun_Maps point_1903779"
+                  transform="translate(79.897 -117.7)"
+                >
+                  <g
+                    id="Groupe_8215"
+                    data-name="Groupe 8215"
+                    transform="translate(-79.897 117.7)"
+                  >
+                    <path
+                      id="Tracé_56944"
+                      data-name="Tracé 56944"
+                      d="M33.054,21.89H33.1a.888.888,0,0,0,.724-.414c.889-1.551,3.93-7.012,3.93-9.267A4.4,4.4,0,0,0,33.24,7.7H32.91a4.4,4.4,0,0,0-4.51,4.51c0,2.255,3.041,7.716,3.93,9.267A.834.834,0,0,0,33.054,21.89Zm-2.151-9.6a2.172,2.172,0,1,1,2.172,2.172A2.172,2.172,0,0,1,30.9,12.292Z"
+                      transform="translate(-28.4 -7.7)"
+                      fill="#354bcf"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+              BIBLIOTHEQUES</a
+            >
+          </li>
+          <li class="text-danger">VOIR LA CARTE</li>
+        </ul>
+        <nav>
+          <ul class="left_text">
+            <li>
+              <img
+                class="img_left"
+                src="https://cdn.paris.fr/paris/2020/09/30/ad73fb242f691bc9ba2b66f99554dd87.svg"
+                class="paris-icon"
+              />
+              Carte d'identité / Passeport
+            </li>
+            <li>
+              <img
+                class="img_left"
+                src="https://cdn.paris.fr/paris/2020/09/30/145b5b043369d2c3e57a05ed85b33cb1.svg"
+                class="paris-icon"
+              />
+              Travailler à Paris
+            </li>
+            <li>
+              <img
+                class="img_left"
+                src="https://cdn.paris.fr/paris/2020/09/30/ae0543aaea8bc77900e2f2acebf8f858.svg"
+                class="paris-icon"
+              />
+              Stationnement résidentiel
+            </li>
+            <li>
+              <img
+                class="img_left"
+                src="https://cdn.paris.fr/paris/2020/09/30/44ced7fc584a3f665282fe266ce3ebaa.svg"
+                class="paris-icon"
+              />
+              Encombrants
+            </li>
+            <li>
+              <img
+                class="img_left"
+                src="https://cdn.paris.fr/paris/2020/09/30/6e8e2bb83a2349b57d0b65aa435e122f.svg"
+                class="paris-icon"
+              />
+              Services en ligne
+            </li>
+            <li>
+              <img
+                class="img_left"
+                src="https://cdn.paris.fr/paris/2020/09/30/08a9e73c5d8684e5795fc0e46602950f.svg"
+                class="paris-icon"
+              />
+              Facil'Familles
+            </li>
+            <li>
+              <img
+                class="img_left"
+                src="https://cdn.paris.fr/paris/2020/09/30/c48eef43882e98314f73b56d957ca82d.svg"
+                class="paris-icon"
+              />
+              Etat civil
+            </li>
+            <li>
+              <img
+                class="img_left"
+                src="https://cdn.paris.fr/paris/2020/09/30/80c05f5412ee70eb626dc9fb14bb58fb.svg"
+                class="paris-icon"
+              />
+              Signaler une anomalie avec DansMaRue
+            </li>
+            <li>
+              <img
+                class="img_left"
+                src="https://cdn.paris.fr/paris/2020/09/30/9fa1f7f0f69a11ba4db3882b8ede1b78.svg"
+                class="paris-icon"
+              />
+              S'installer à Paris
+            </li>
+            <li>
+              <img
+                class="img_left"
+                src="https://cdn.paris.fr/paris/2020/09/30/90af1dcee63a5ca8ececf87e4a9be4d9.svg"
+                class="paris-icon"
+              />
+              Logement: prise de RDV en ligne
+            </li>
+          </ul>
+        </nav>
+        <section class="container icon_left1">
+          <h3>Qualité de l'air</h3>
+          <a class="text-danger" href="">Voir la carte</a>
+          <svg
+            class="svg_left"
+            viewBox="0 0 137 69"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g>
+              <path
+                d="m15.7 69a52.7 52.7 0 0 1 7.1-26.5l-10.7-6.2a61.7 61.7 0 0 0 -8.7 32.7z"
+                fill="#4ff0e6"
+              ></path>
+              <path
+                d="m125.8 37.2-10 5.8a53.3 53.3 0 0 1 6.8 26h11.5a63.5 63.5 0 0 0 -8.3-31.8z"
+                fill="#772c89"
+              ></path>
+              <path
+                d="m102.3 12.9-5.9 10.3h-.1a52.7 52.7 0 0 1 18.9 18.9l10.1-5.8a63 63 0 0 0 -23-23.4z"
+                fill="#a83654"
+              ></path>
+              <path
+                d="m69.7 3.6v12.1a53.4 53.4 0 0 1 25.8 6.9l5.9-10.2a63 63 0 0 0 -31.7-8.8z"
+                fill="#ec5e58"
+              ></path>
+              <path
+                d="m67.9 3.6a62.9 62.9 0 0 0 -31 8.3l6.1 10.6a53.2 53.2 0 0 1 25.7-6.8v-12.1z"
+                fill="#ede661"
+              ></path>
+              <path
+                d="m36 12.4a63 63 0 0 0 -23.4 23l10.7 6.2a54.9 54.9 0 0 1 18.8-18.6z"
+                fill="#50ccaa"
+              ></path>
+            </g>
+            <g class="airmeter-level-2">
+              <path d="m23.8 13.9-9.3 9.9 13.6 3.4z" fill="#fff"></path>
+              <path d="m16.4 23.3 6.9-7.4 3.2 9.9z" fill="#071f32"></path>
+            </g>
+          </svg>
+          &nbsp
+        </section>
+      </section>
+
+      <section class="col middle">
+        <nav class="row pt-5 little_nav">
+          <li class="col d-flex justify-content-center">PRATIQUE</li>
+          <li class="col d-flex justify-content-center">ACTUALITÉS</li>
+          <li class="col d-flex justify-content-center">TELEX</li>
+        </nav>
+
+        <section>
+          <img
+            class="img-fluid img_center"
+            src="./image/main_image.jpg"
+            alt=""
+          />
+          <div class="text_center">
+            <a class="btn btn-danger btn-sm rounded-0 btn_red" href=""
+              >A LA UNE</a
+            >
+            <h2 class="h1 font-weight-bold">
+              Ces façade qui font voyager sans quitter Paris
+            </h2>
+            <p>
+              des plus modernes aux plus anciennes, ces façades parisiennes nous
+              emmènent en voyage vers des contrées plus ou moins lointaines,
+              tout en restant au coin ...
+            </p>
+          </div>
+        </section>
+
+        <section class="container d-flex row patern_2">
+          <div class="col">
+            <img class="img-fluid" src="./image/eglise.png" alt="" />
+            <a class="btn btn-info btn-sm rounded-0 btn_blue" href=""
+              >REPORTAGE</a
+            >
+            <h3 class="h5">les trésors restaurés de l'église Saint-Sulpice</h3>
+          </div>
+          <div class="col side">
+            <img class="img-fluid" src="./image/smartphone.png" alt="" />
+            <a class="btn btn-info btn-sm rounded-0 btn_blue" href=""
+              >REPORTAGE</a
+            >
+            <h3 class="h5">L'application DnsMaRue fait peau neuve !</h3>
+          </div>
+        </section>
+
+        <section>
+          <img class="img-fluid img_center" src="./image/velo.jpg" alt="" />
+          <div class="text_center">
+            <a class="btn btn-danger btn-sm rounded-0 btn_red" href=""
+              >A LA UNE</a
+            >
+            <h2 class="h1 font-weight-bold">
+              Votation 2 avril : "Pour ou contre les trottinettes en
+              libre-service ?"
+            </h2>
+            <p>
+              La Ville de Paris a choisi de solliciter l'avis des Parisiennes et
+              des Parisiens avant de prendre une décision sur l'avenir du
+              stationnement des trottinettes...
+            </p>
+          </div>
+        </section>
+
+        <section class="container d-flex row patern_2">
+          <div class="col">
+            <img class="img-fluid" src="./image/bon_plan.jpg" alt="" />
+            <a class="btn btn-info btn-sm rounded-0 btn_blue" href=""
+              >REPORTAGE</a
+            >
+            <h3 class="h5">
+              Voici une sélection des meilleures sorties de ce week-end !
+            </h3>
+          </div>
+          <div class="col side">
+            <img class="img-fluid" src="./image/2_enfants.jpg" alt="" />
+            <a class="btn btn-info btn-sm rounded-0 btn_blue" href=""
+              >ACTUALITÉ</a
+            >
+            <h3 class="h5">
+              Que faire avec les enfants pendant les vacances d'hiver ?
+            </h3>
+          </div>
+        </section>
+
+        <section class="container d-flex row patern_2">
+          <div class="col">
+            <img class="img-fluid" src="./image/écoles.jpg" alt="" />
+            <a class="btn btn-info btn-sm rounded-0 btn_blue" href=""
+              >REPORTAGE</a
+            >
+            <h3 class="h5">
+              Un plan de rénovation pour les sanitaires des établissements
+              scolaires
+            </h3>
+          </div>
+          <div class="col side">
+            <img class="img-fluid" src="./image/rénovation.jpg" alt="" />
+            <a class="btn btn-info btn-sm rounded-0 btn_blue" href=""
+              >ACTUALITÉ</a
+            >
+            <h3 class="h5">L'application DnsMaRue fait peau neuve !</h3>
+          </div>
+        </section>
+        <section>
+          <img class="img-fluid img_center" src="./image/vivre.jpg" alt="" />
+          <div class="text_center">
+            <a class="btn btn-danger btn-sm rounded-0 btn_red" href=""
+              >A LA UNE</a
+            >
+            <h2 class="h1 font-weight-bold">
+              Comment bien vivre à Paris demain ? Voici vos priorités !
+            </h2>
+          </div>
+        </section>
+      </section>
+
+
+      <section class="col right">
+        <section class="div">
+          <p>08h00 · <strong>Le saviez-vous ?</strong> Le 26 février 1802, l'écrivain Victor Hugo voit le jour à Besançon (Doubs). Il s'éteint à Paris en 1885 après une vie dédiée à la littérature (Notre-Dame de Paris, Les Misérables…) et à la politique (engagements royalistes puis républicains). Le 1er juin 1885, la dépouille de Victor Hugo est conduite au Panthéon, escortée par un cortège de deux millions de personnes.</p>
+          <a class="btn btn-danger btn-sm rounded-0 btn_red" href=""
+          >EN SAVOIR +</a>
+          <img class="telex-item-image" alt="Victor Hugo à Guernesey" loading="lazy" src="https://cdn.paris.fr/paris/2020/11/10/large-44ff733b237031e280c73c80f4c29fe1.jpg">
+          &nbsp
+        </section>
+        <section class="col right">
+          <section class="div">
+            <p>08h10 · <strong>Le saviez-vous ?</strong> Le 25 février 1880, le musée Carnavalet ouvre ses portes pour la première fois. Ce musée, consacré à l’histoire de Paris et de ses habitants, conserve des collections qui illustrent l’évolution de la ville de la Préhistoire à nos jours. Il a rouvert ses portes après 4 ans de travaux en mai 2021.</p>
+            <a class="btn btn-danger btn-sm rounded-0 btn_red" href=""
+            >EN SAVOIR +</a>
+            <img class="telex-item-image" alt="Musée Carnavalet  " loading="lazy" src="https://cdn.paris.fr/paris/2021/12/06/large-c754b58b8d7d0643755d1fde8086d200.jpg">
+            &nbsp
+          </section>
+          <section class="col right">
+            <section class="div">
+              <p>10h31 · <strong>Alimentation.</strong> Plus que quelques jours pour répondre à l'appel à projets « alimentation durable et solidaire. » L'objectif est de soutenir des projets qui visent à rendre des aliments de qualité financièrement abordables pour le plus grand nombre. Les candidatures sont à déposer jusqu'au mercredi 1er mars 2023.</p>
+              <a class="btn btn-danger btn-sm rounded-0 btn_red" href=""
+              >EN SAVOIR +</a>
+              <img class="telex-item-image" alt="" loading="lazy" src="https://cdn.paris.fr/paris/2021/09/07/large-fb7c533a577f889872bcf3fd68bc0421.jpg">
+              &nbsp
+            </section>
+            <section class="col right">
+              <section class="div">
+                <p>13h58 · <strong>Ukraine.</strong> Alors que l'invasion russe a débuté il y a un an le 24 février 2022, la tour Eiffel arborera les couleurs ukrainiennes du 23 au 26 février. Prague, Londres, Madrid, Budapest, Varsovie, Berlin, Bruxelles et Buenos Aires participeront aussi à cet hommage.</p>
+                <a class="btn btn-danger btn-sm rounded-0 btn_red" href=""
+                >EN SAVOIR +</a>
+                <img class="telex-item-image" alt="La tour Eiffel aux couleurs de l'Ukraine le 23 février 2023 pour rendre hommage à l'Ukraine un an après le début de l'invasion russe." loading="lazy" src="https://cdn.paris.fr/paris/2023/02/24/large-e529bd186b05e52c8d74d595657850e0.jpg">
+                &nbsp
+              </section>
+      </section>
+    </main>
+    <footer class="row mt-5">
+      <section class="col footer_left">
+        <section class="d-flex justify-content-around">
+          <svg
+            class="svg_paris"
+            viewBox="0 0 167 45"
+            role="img"
+            focusable="false"
+          >
+            <path
+              d="M71.11 18.01c0-1.978-1.397-3.491-3.298-3.491h-4.074v6.984h4.074c1.9 0 3.298-1.514 3.298-3.492zm6.208 0c0 5.161-4.152 9.313-9.506 9.313h-4.074v8.536H57.53V8.699h10.282c5.354 0 9.506 4.151 9.506 9.312zm56.867 17.849V8.699h6.209v27.16h-6.209zM113.65 21.902h4.656c1.708 0 3.104-1.6 3.104-3.692s-1.396-3.691-3.104-3.691h-4.656v7.383zm0 5.433v8.524h-6.208V8.699h10.864a9.29 9.29 0 0 1 9.312 9.312c0 3.336-1.929 6.6-4.927 8.01l5.703 9.838h-6.673l-4.892-8.524h-3.179zm-26.463-1.474c1.026.263 2.102.402 3.21.402 1.11 0 2.186-.139 3.212-.402L90.398 15.8l-3.211 10.06zm-1.668 5.224l-1.525 4.774h-6.79l9.236-27.16h7.916l9.232 27.16h-6.79l-1.521-4.774c-1.56.4-3.195.611-4.88.611-1.684 0-3.319-.211-4.878-.611zm70.638-16.877c-1.67 0-2.91.769-2.91 2.057 0 1.728 1.689 2.448 5.91 3.697 5.428 1.606 7.708 3.915 7.708 8.098 0 5.29-4.283 8.342-10.087 8.342-7.392 0-10.46-5.583-10.865-6.713l5.283-2.769c1.179 2.093 3.133 3.434 5.582 3.434 2.193 0 3.88-.608 3.88-2.216 0-2.31-3.732-2.78-5.626-3.454-1.895-.673-7.993-1.85-7.993-8.264 0-5.343 4.524-8.265 9.118-8.265 6.536 0 9.074 4.429 9.932 6.13l-5.18 2.728c-.937-1.352-2.046-2.805-4.752-2.805zM47.75 26.281c.243.003.276.744-.487 2.796-3.315 8.906-11.097 15.208-22.558 15.208-13.814 0-23.347-9.76-24.704-21.668a.37.37 0 0 1 .46-.396l15.607 3.403c.04.104 2.588 7.577 9.904 7.577 7.367 0 12.15-7.526 12.15-15.81 0-8.278-5.164-11.76-6.741-12.981a31815.5 31815.5 0 0 0-13.127 6.565c7.091 4.342 8.372 12.053 6.59 17.35-.502 1.494-1.025 1.627-.932.83.618-5.33-1.6-14.729-14.683-17.758a.248.248 0 0 1-.049-.466L32.797 0c5.27 3.863 8.9 8.787 8.9 17.392 0 9.563-6.453 18.811-15.724 18.811-8.764 0-12.084-7.631-12.128-7.725L5.17 26.856c.106.38 4.112 14.366 21.11 14.24 8.539-.063 16.598-4.65 20.97-14.227.196-.428.334-.59.502-.588z"
+            ></path>
+          </svg>
+          <select
+            class="paris-footer-select-object"
+            data-action="footer#onChange"
+            data-target="footer.mairies"
+          >
+            <option value="">Les Mairies</option>
+            <option value="https://mairiepariscentre.paris.fr/">
+              Mairie de Paris Centre
+            </option>
+            <option value="https://mairie05.paris.fr/">
+              Mairie du 5ᵉ arrondissement
+            </option>
+            <option value="https://mairie06.paris.fr/">
+              Mairie du 6ᵉ arrondissement
+            </option>
+            <option value="https://mairie07.paris.fr/">
+              Mairie du 7ᵉ arrondissement
+            </option>
+            <option value="https://mairie08.paris.fr/">
+              Mairie du 8ᵉ arrondissement
+            </option>
+            <option value="https://mairie09.paris.fr/">
+              Mairie du 9ᵉ arrondissement
+            </option>
+            <option value="https://mairie10.paris.fr/">
+              Mairie du 10ᵉ arrondissement
+            </option>
+            <option value="https://mairie11.paris.fr/">
+              Mairie du 11ᵉ arrondissement
+            </option>
+            <option value="https://mairie12.paris.fr/">
+              Mairie du 12ᵉ arrondissement
+            </option>
+            <option value="https://mairie13.paris.fr/">
+              Mairie du 13ᵉ arrondissement
+            </option>
+            <option value="https://mairie14.paris.fr/">
+              Mairie du 14ᵉ arrondissement
+            </option>
+            <option value="https://mairie15.paris.fr/">
+              Mairie du 15ᵉ arrondissement
+            </option>
+            <option value="https://mairie16.paris.fr/">
+              Mairie du 16ᵉ arrondissement
+            </option>
+            <option value="https://mairie17.paris.fr/">
+              Mairie du 17ᵉ arrondissement
+            </option>
+            <option value="https://mairie18.paris.fr/">
+              Mairie du 18ᵉ arrondissement
+            </option>
+            <option value="https://mairie19.paris.fr/">
+              Mairie du 19ᵉ arrondissement
+            </option>
+            <option value="https://mairie20.paris.fr/">
+              Mairie du 20ᵉ arrondissement
+            </option>
+          </select>
+        </section>
+        <nav class="row mt-5">
+          <section class="col footer_link">
+            <h3>Visit Paris</h3>
+            <a class="text-danger">TOURIST OFFICE</a>
+          </section>
+          <section class="col">
+            <h3>Open Data</h3>
+            <a class="text-danger">EN SAVOIR +</a>
+          </section>
+          <section class="col">
+            <h3>Démarches</h3>
+            <a class="text-danger">SERVICES EN LIGNE</a>
+          </section>
+        </nav>
+        <nav>
+          <ul class="d-flex justify-content-around mt-5 footer_link2">
+            <li>CONTACT</li>
+            <li>PRESSE</li>
+            <li>MENTION LEGALES</li>
+            <li>ACCESSIBILITE</li>
+            <li>POLITIQUE DE COOKIES</li>
+            <li>PLAN DU SITE</li>
+          </ul>
+        </nav>
+      </section>
+      <section class="col footer_right text-white">
+        <p class="d-flex justify-content-center">
+          Recevez chaque semaine l'actualité de votre ville
+        </p>
+        <div class="d-flex justify-content-center">
+          <input
+            placeholder="Votre email"
+            id="footeremail"
+            autocomplete="off"
+            data-target="newsletter.emailInput"
+            type="email"
+            name="email"
+          />
+          <a class="btn btn-danger btn-sm rounded-0" href="">S'abonner</a>
+        </div>
+        <p class="d-flex justify-content-center">
+          Suivez-nous sur les réseaux sociaux
+        </p>
+        <div class="d-flex justify-content-around pt-2">
+          <i class="fa-brands fa-square-facebook group_icon"></i>
+          <i class="fa-brands fa-twitter group_icon"></i>
+          <i class="fa-brands fa-instagram group_icon"></i>
+          <i class="fa-brands fa-linkedin group_icon"></i>
+          <i class="fa-brands fa-youtube group_icon"></i>
+        </div>
+        <p class="d-flex justify-content-center">
+          Une question ? Contactez-nous sur
+        </p>
+        <a class="d-flex justify-content-center">@PARISJECOUTE</a>
+      </section>
+    </footer>
+  </body>
+</html>
